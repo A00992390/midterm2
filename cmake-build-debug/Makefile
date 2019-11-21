@@ -123,6 +123,60 @@ midterm2/fast:
 	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/build
 .PHONY : midterm2/fast
 
+MyLinkedList.o: MyLinkedList.cpp.o
+
+.PHONY : MyLinkedList.o
+
+# target to build an object file
+MyLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/MyLinkedList.cpp.o
+.PHONY : MyLinkedList.cpp.o
+
+MyLinkedList.i: MyLinkedList.cpp.i
+
+.PHONY : MyLinkedList.i
+
+# target to preprocess a source file
+MyLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/MyLinkedList.cpp.i
+.PHONY : MyLinkedList.cpp.i
+
+MyLinkedList.s: MyLinkedList.cpp.s
+
+.PHONY : MyLinkedList.s
+
+# target to generate assembly for a file
+MyLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/MyLinkedList.cpp.s
+.PHONY : MyLinkedList.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/midterm2.dir/build.make CMakeFiles/midterm2.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... midterm2"
 	@echo "... edit_cache"
+	@echo "... MyLinkedList.o"
+	@echo "... MyLinkedList.i"
+	@echo "... MyLinkedList.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

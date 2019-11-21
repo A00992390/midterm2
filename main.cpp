@@ -17,6 +17,7 @@ int main() {
     intList.pushFront(1);
 
     // finding the mid point of int List
+    // intList.insert(intList.head, 2); // works as well
     Node<int> *prevNodeInt = intList.head;
     while(prevNodeInt != NULL) {
         len++;
@@ -37,6 +38,7 @@ int main() {
     stringList.pushFront("a");
 
     // finding the mid point of string list
+    // stringList.insert(stringList.head, "b"); // works as well
     Node<string> *prevNodeString = stringList.head;
     while(prevNodeString != NULL) {
         len++;
